@@ -1,0 +1,41 @@
+.app{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    min-height: 100hv;
+}
+
+input{
+    padding: 0.7rem 1rem;
+    width: 90%;
+    max-width: 400px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.personajes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.card{
+    background: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    width: 220px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    color:#333;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
